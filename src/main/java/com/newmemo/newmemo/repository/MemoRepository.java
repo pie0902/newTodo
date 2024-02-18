@@ -1,2 +1,7 @@
-package com.newmemo.newmemo.repository;public class MemoRepository {
+package com.newmemo.newmemo.repository;
+
+import com.newmemo.newmemo.entity.Memo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MemoRepository extends JpaRepository<Memo,Long> {
 }
